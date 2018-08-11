@@ -60,6 +60,9 @@
           {{ page.content }}
         </div>
       </div>
+      {% if page.bottom-image %}
+      <img src="{{ page.bottom-image }}" style="height: 100%; width: 100%; object-fit: contain"/>
+      {% endif %}
     {% endfor %}
 
   </div>

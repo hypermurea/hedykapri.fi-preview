@@ -121,9 +121,7 @@ hr {
   display:block;
   width:100%;
   min-height:300px;
-  padding:210px 0;
-  background:url(img/bgnoise.png);
-  /* generated noise from noisetexturegenerator.com */
+  padding:60px 0;
 }
 
 .section:first-of-type {
@@ -278,7 +276,7 @@ hr {
 	.container h4 { font-size: 18px; }
 
 
-  .section { padding:130px 0; }
+  .section { padding:60px 0; }
   .sectiondivider {
     width:200px;
     height:200px;
