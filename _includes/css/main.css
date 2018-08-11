@@ -66,6 +66,15 @@ hr {
 
 .container { word-wrap: break-word; }
 .center { text-align: center; }
+.container.intro p {
+  font-style: italic;
+  font-size: 28px;
+  line-height: 37px;
+}
+.container.nosto p {
+  font-size: 31px;
+  line-height: 36px;
+}
 .left, .container .left { text-align: left; }
 
 .container h1, .container h2, .container h3, .container h4 {
@@ -75,6 +84,7 @@ hr {
 }
 .container p, .container ol, .container ul {
   font-size: 17px;
+  line-height: 25px;
   padding: 0 5%;
 }
 .container ol, .container ul { padding: 0 8%; }
@@ -125,7 +135,7 @@ hr {
 }
 
 .section:first-of-type {
-    padding-top: 140px;
+    padding-top: 20px;
 }
 
 

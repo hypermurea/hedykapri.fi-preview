@@ -109,6 +109,11 @@ a:active {
 ## Menus
 --------------------------------------------------------------*/
 
-.container > .nosto p {
-	font-size: 31px;
+.site-logo {
+	position: absolute;
+	z-index: 4;
+	width: 100%;
+	margin-top: 60px;
+	margin-left: 5%;
+	padding 0 5%;
 }

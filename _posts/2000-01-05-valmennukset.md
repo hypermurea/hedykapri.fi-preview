@@ -3,6 +3,7 @@ title: "Valmennukset"
 bg: grey
 color: dark
 bottom-image: /img/Hedy_Kapri_01.jpg
+menu: true
 ---
 
 ## Valmennukset

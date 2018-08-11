@@ -5,127 +5,25 @@ $(function() {
     });
 });
 
-/*
- * Smooth anchor link effect.
- */
+    $("#contactForm").submit(function(e) {
+        // prevent default submit behaviour
+        e.preventDefault();
+        // serialize total form data
+        var postData = $(this).serializeArray();
 
-/*
-jQuery(document).ready(function() {
-	var offset = 220;
-	var duration = 500;
-	jQuery('.backtotop a').click(function(event) {
-		event.preventDefault();
-		jQuery('html, body').animate({scrollTop: 0}, duration);
-		return false;
-	});
-	jQuery('a[href*=\\#]:not([href=\\#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = jQuery(this.hash);
-      target = target.length ? target : jQuery('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        jQuery('html,body').animate({
-          scrollTop: target.offset().top
-        }, 500);
-        return false;
-      }
-    }
-  });
-});
-
-
-// theme own code
-
-$.extend($.easing,
-{
-    def: 'easeOutQuad',
-    easeInOutExpo: function (x, t, b, c, d) {
-        if (t==0) return b;
-        if (t==d) return b+c;
-        if ((t/=d/2) < 1) return c/2 * Math.pow(2, 10 * (t - 1)) + b;
-        return c/2 * (-Math.pow(2, -10 * --t) + 2) + b;
-    }
-});
-
-(function( $ ) {
-
-    var settings;
-    var disableScrollFn = false;
-    var navItems;
-    var navs = {}, sections = {};
-
-    $.fn.navScroller = function(options) {
-        settings = $.extend({
-            scrollToOffset: 170,
-            scrollSpeed: 800,
-            activateParentNode: true,
-        }, options );
-        navItems = this;
-
-        //attatch click listeners
-    	navItems.on('click', function(event){
-    		event.preventDefault();
-            var navID = $(this).attr("href").substring(1);
-            disableScrollFn = true;
-            activateNav(navID);
-            populateDestinations(); //recalculate these!
-        	$('html,body').animate({scrollTop: sections[navID] - settings.scrollToOffset},
-                settings.scrollSpeed, "easeInOutExpo", function(){
-                    disableScrollFn = false;
-                }
-            );
-    	});
-
-        //populate lookup of clicable elements and destination sections
-        populateDestinations(); //should also be run on browser resize, btw
-
-        // setup scroll listener
-        $(document).scroll(function(){
-            if (disableScrollFn) { return; }
-            var page_height = $(window).height();
-            var pos = $(this).scrollTop();
-            for (i in sections) {
-                if ((pos + settings.scrollToOffset >= sections[i]) && sections[i] < pos + page_height){
-                    activateNav(i);
-                }
-            }
+        // get form action url
+        var formActionURL = $(this).attr("action");
+        // $("#submit").val('please wait...');
+        // JQuery ajax method , for post we can directly use $.post({}); this is shortcut method for sending post request
+        $.ajax({
+            url: formActionURL,
+            type: "POST",
+            data: postData,
+         }).done(function(data) {
+            alert("Kiitos yhteydenotosta!");
+         }).fail(function() {
+            alert("error");
+         }).always(function() {
+            $("#submit").val('submit');
         });
-    };
-
-    function populateDestinations() {
-        navItems.each(function(){
-            var scrollID = $(this).attr('href').substring(1);
-            navs[scrollID] = (settings.activateParentNode)? this.parentNode : this;
-            sections[scrollID] = $(document.getElementById(scrollID)).offset().top;
-        });
-    }
-
-    function activateNav(navID) {
-        for (nav in navs) { $(navs[nav]).removeClass('active'); }
-        $(navs[navID]).addClass('active');
-    }
-})( jQuery );
-
-
-$(document).ready(function (){
-
-    $('nav li a').navScroller();
-
-    //section divider icon click gently scrolls to reveal the section
-	$(".sectiondivider").on('click', function(event) {
-    	$('html,body').animate({scrollTop: $(event.target.parentNode).offset().top - 50}, 400, "linear");
-	});
-
-    //links going to other sections nicely scroll
-	$(".container a").each(function(){
-        if ($(this).attr("href").charAt(0) == '#'){
-            $(this).on('click', function(event) {
-        		event.preventDefault();
-                var target = $(event.target).closest("a");
-                var targetHight =  $(target.attr("href")).offset().top
-            	$('html,body').animate({scrollTop: targetHight - 170}, 800, "easeInOutExpo");
-            });
-        }
-	});
-
-});
-*/
+    });

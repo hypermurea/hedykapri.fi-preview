@@ -1,7 +1,7 @@
 ---
 
 port: 4000
-host: 0.0.0.0
+host: https://hypermurea.github.io/hedykapri.fi/
 safe: false
 
 
