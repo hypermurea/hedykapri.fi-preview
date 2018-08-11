@@ -1,0 +1,105 @@
+/*--------------------------------------------------------------
+# Navigation
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: inherit;
+}
+
+a:focus {
+	outline: thin dotted;
+}
+
+a:hover,
+a:active {
+	outline: 0;
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+
+.site-header nav {
+	position: fixed;
+}
+
+.main-navigation {
+	clear: both;
+	display: block;
+	right: 40px;
+	top: 40px;
+	z-index: 1000;
+	width: 215px;
+	padding: 20px;
+}
+
+.main-navigation.toggled {
+	background: #000;
+}
+
+.main-navigation div > ul {
+	display: none;
+	text-align: left;
+	background: #000;
+	font-size: 22px;
+	font-size: 1.222rem;
+	line-height: 1.28;
+	padding-bottom: 15px;
+	margin-top: 10px;
+}
+
+.main-navigation.toggled div > ul {
+	display: block;
+}
+
+
+#toggle-menu {
+	text-align: right;
+}
+
+#toggle-menu:focus {
+	outline: none;
+}
+
+.menu-close, .main-navigation.toggled .menu-open {
+	display: none;
+}
+
+.main-navigation.toggled .menu-close {
+	display: inline;
+}
+
+.main-navigation ul, .kuurna-quicklinks ul {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+	text-align: left;
+}
+
+.main-navigation a {
+	display: block;
+	text-decoration: none;
+}
+
+.main-navigation a:hover {
+	text-decoration: underline;
+	color: inherit;
+}
+
+.main-navigation li {
+	margin-bottom: 3px;
+}
+
+.main-navigation ul ul {
+	font-size: 0.77em;
+	margin: 7px 0;
+}

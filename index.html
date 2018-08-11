@@ -17,13 +17,27 @@
 <body>
   <div id="main">
 
+    <header id="masthead" class="site-header" role="banner" style="background-color: #000; color: #ffffff;">
+      <nav id="site-navigation" class="main-navigation" role="navigation">
+  		    <a href="#" id="toggle-menu"><img class="menu-open" src="img/menu.svg" alt="Main menu" /><img class="menu-close" src="http://www.ateljefinne.fi/hallinta/wp-content/themes/kuurnafinne/img/close.svg" alt="Close main menu" /></a>
+
+  			     <div><ul>
+               {% for node in site.posts reversed %}
+                 {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
+                 <li><a href="#{{id}}">{{node.title}}</a></li>
+               {% endfor %}
+  			</ul></div>
+  	   </nav><!-- #site-navigation -->
+    </header>
+
+<!--
     <nav><ul>
       {% for node in site.posts reversed %}
         {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
         <li class="p-{{id}}"><a href="#{{id}}">{{node.title}}</a></li>
       {% endfor %}
     </ul></nav>
-
+-->
 
     {% for page in site.posts reversed %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
@@ -48,13 +62,6 @@
       </div>
     {% endfor %}
 
-
-    <div id="footer" class="section text-white">
-      <div class="container">
-        {% capture foottext %} {% include footer.md %} {% endcapture %}
-        {{ foottext | markdownify }}
-      </div>
-    </div>
   </div>
 
 {% include analytics.html %}

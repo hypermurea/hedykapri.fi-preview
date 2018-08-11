@@ -14,13 +14,13 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "SinglePaged - Simple Jekyll template"
-keywords:    "SinglePaged, jekyll, template, github, blog, single page"
-description: "A single-page template for Jekyll based blogs (like what you'd use on github pages!)"
-source_link: "https://github.com/t413/SinglePaged"
+title:       "Hedy Kapri"
+keywords:    "TODO"
+description: "hedykapri.fi"
+source_link: "TODO"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
-google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
+## google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable) TODO
 
 
 ### template colors, used site-wide via css ###
@@ -32,7 +32,10 @@ colors:
   purple:    '#c869bf'
   orange:    '#fab125'
   turquoise: '#0fbfcf'
+  grey:      '#d6e2e4'
+  pink:      '#d99493'
+  nude:      '#faf4f4'
+  dark:      '#003d37'
 
 kramdown:
   auto_ids:  false
-
