@@ -43,15 +43,16 @@ a:active {
 }
 
 .main-navigation.toggled {
-	background: #000;
+	background: #003d37;
 }
 
 .main-navigation div > ul {
 	display: none;
 	text-align: left;
-	background: #000;
-	font-size: 22px;
+	background: #003d37;
+	font-size: 17px;
 	font-size: 1.222rem;
+  font-weight: normal;
 	line-height: 1.28;
 	padding-bottom: 15px;
 	margin-top: 10px;
