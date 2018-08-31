@@ -63,7 +63,12 @@
         </div>
       </div>
       {% if page.bottom-image %}
-      <img src="{{ page.bottom-image }}" style="height: 100%; width: 100%; object-fit: contain"/>
+      <img src="{{ page.bottom-image }}" style="height: 100%; width: 100%; object-fit: contain; margin-bottom: 60px;"/>
+      {% endif %}
+      {% if page.kuosi %}
+      <div class="kuosi">
+        <embed src="img/HK_kuosi.svg"/>
+      </div>
       {% endif %}
     {% endfor %}
 

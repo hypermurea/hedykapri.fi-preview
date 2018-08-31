@@ -80,6 +80,15 @@ hr {
   margin-bottom: 30px;
 }
 
+.kuosi {
+  margin-bottom: 60px;
+}
+.kuosi embed {
+  background-repeat: repeat-x;
+  overflow:hidden;
+  width: 100%;
+}
+
 .section-links a:hover {
   text-decoration: underline;
   color: inherit;
