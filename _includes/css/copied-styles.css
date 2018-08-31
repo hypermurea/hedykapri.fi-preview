@@ -36,7 +36,7 @@ a:active {
 	clear: both;
 	display: block;
 	right: 40px;
-	top: 40px;
+	top: 60px;
 	z-index: 1000;
 	width: 215px;
 	padding: 20px;
@@ -52,7 +52,7 @@ a:active {
 	background: #003d37;
 	font-size: 17px;
 	font-size: 1.222rem;
-  font-weight: normal;
+  font-weight: lighter;
 	line-height: 1.28;
 	padding-bottom: 15px;
 	margin-top: 10px;
@@ -89,6 +89,8 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
+	font-size: 18px;
+	line-height: 33px;
 }
 
 .main-navigation a:hover {
