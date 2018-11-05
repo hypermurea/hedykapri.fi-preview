@@ -8,7 +8,59 @@ menu: true
 
 ## Valmennukset
 
-Aceatur, qui num qui doluptas aliquatur, tempossi niassitati voloreiuscil molessunt
-fuga. Atum doluptatur? Quiam ide et estrum rest a sit, sapidi corporp oribusa ndipsan
-istesed quasped qui aut vit atures arunto tem a volendita quistior aut aligent.
-Voloreprae deliqui consequo quos excerum aditaquos maxim secum et quam >>
+Tarjoan asiakkailleni aikaa ja tilaa pysähtyä ajattelemaan. Mistä oikeastaan on kyse? Mikä on
+kaikkein tärkeintä? Etsimällä vastauksia näihin kysymyksiin johdattelen asiakkaani oleellisen
+äärelle. Autan heitä tulemaan tietoisiksi omista tiedostamattomista ajattelu- ja
+toimintamalleistaan, löytämään uusia näkökulmia ja lisäämään itsetuntemustaan.<a id="expand-valmennukset">&gt;&gt;</a>
+
+<div id="expandable-valmennukset" class="expandable-container" style="display:none;">
+
+<p>
+Lähtökohtana valmennuksissani on aina todelliset arjen haasteet ja toiveet. Pidän erittäin
+tärkeänä, että oivallukset saadaan ajattelu- ja asennetason lisäksi näkymään toimintatavoissa ja
+käyttäytymisessä.
+</p>
+
+<p>
+Growth Mindset tekee ajattelumallimme näkyväksi
+Ajattelumme vaikuttaa tuottavuuteemme, kykyymme oppia ja kehittyä – joskus myös estää meitä
+onnistumasta. Käytössäni olevaa Growth Mindset -arviointia hyödyntämällä autan asiakkaitani
+tulemaan tietoiseksi heitä jarruttavista ajattelumalleistasi sekä siitä, mitä mindsetin osa-alueita
+heidän kannattaisi kehittää onnistuakseen.
+</p>
+
+<p>
+Työtä tuunaamalla innostusta ja työn imua
+Tutkimusten mukaan pidämme mahdollisuuksiamme vaikuttaa työhömme pienempinä kuin ne
+todellisuudessa ovat. Tuunaamalla työnsä sisältöä, työtapojaan, vuorovaikutusta tai
+näkökulmaansa työhön voi aktiivisesti vaikuttaa omaan työhyvinvointiinsa.
+</p>
+
+<p>
+Arvioinneilla ja kvalitatiivisella tutkimuksella vaikuttavuutta
+Käytän valmennuksissani coachingin rinnalla erilaisia arviointityökaluja (esim. Growth Mindset ja
+Belbin) ja kvalitatiivisia tutkimusmenetelmiä kuten havainnointia, haastatteluja ja autoetnografiaa.
+Aidossa toimintaympäristössä, arjen todellisissa tilanteissa toteutettu tutkimus varmistaa, että
+valmennus ei tapahdu tyhjiössä vaan kytkeytyy tiukasti arjen tekemiseen ja on käytännönläheistä.
+</p>
+
+<p>
+Etsitkö itsellesi coachia?
+Soita ja varaa veloituksetta aika 30 min keskusteluun. Mikäli tuntuu siltä, että minä voisin olla juuri
+sinulle sopiva coach, jatketaan suunnittelemalla sinun tarpeittesi mukainen coachingprosessi.
+</p>
+
+<p>
+Esimerkki. Tyypillinen coachingprosessi: kestää noin 2-4 kuukautta, sisältäen 4-7 coachingsessiota.
+Tarjoan kuitenkin eri laajuisia coaching-prosesseja sen mukaan, kuinka syvällistä tutkiskelua ja
+pitkäkestoista työstämistä milloinkin tarvitaan. Coaching voidaan toteuttaa kasvokkain,
+puhelimitse, Skypellä tmv. tai näiden yhdistelmällä.
+</p>
+
+<p>
+Oletko kiinnostunut ryhmä- tai tiimivalmennuksesta organisaatiollesi?
+Ota yhteyttä, niin rakennetaan juuri teille sopiva valmennuskokonaisuus.
+</p>
+
+<a id="collapse-valmennukset" class="collapse-link">X Sulje</a>
+</div>

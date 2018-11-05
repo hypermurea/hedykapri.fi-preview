@@ -1,11 +1,39 @@
 $(function() {
-     $("#toggle-menu").click(function(e) {
+  $("#toggle-menu").click(function(e) {
 	   $(".main-navigation").toggleClass('toggled');
 	   e.preventDefault();
-    });
+  });
 });
 
-    $("#contactForm").submit(function(e) {
+var expandValmennukset = function(e) {
+  $("#expandable-valmennukset").attr("style", "display:block");
+  $("#expand-valmennukset").attr("style", "display:none;");
+};
+
+$("#expand-valmennukset").click(expandValmennukset);
+$("#menu-valmennukset").click(expandValmennukset);
+
+$("#collapse-valmennukset").click(function(e) {
+  $("#expandable-valmennukset").attr("style", "display:none");
+  $("#expand-valmennukset").attr("style", "");
+  $(document).scrollTop( $("#valmennukset").offset().top );
+});
+
+var expandValmentajasi = function(e) {
+  $("#expandable-valmentajasi").attr("style", "display:block");
+  $("#expand-valmentajasi").attr("style", "display:none;");
+};
+
+$("#expand-valmentajasi").click(expandValmentajasi);
+$("#menu-valmentajasi").click(expandValmentajasi);
+
+$("#collapse-valmentajasi").click(function(e) {
+  $("#expandable-valmentajasi").attr("style", "display:none;");
+  $("#expand-valmentajasi").attr("style", "");
+  $(document).scrollTop( $("#valmentajasi").offset().top ); 
+});
+
+$("#contactForm").submit(function(e) {
         // prevent default submit behaviour
         e.preventDefault();
         // serialize total form data

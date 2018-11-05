@@ -111,6 +111,30 @@ hr {
   line-height: 25px;
   /* padding: 0 5%; */
 }
+
+.expandable-container p {
+  font-size: 17px;
+  line-height: 25px;
+  padding-bottom: 25px;
+}
+
+.collapse-link {
+  display: block;
+}
+
+.expandable-container .nosto {
+  font-size: 31px;
+  line-height: 36px;
+  color: #d99493;
+  float: right;
+}
+
+.expandable-container a {
+  font-size: 17px;
+  padding-bottom: 25px;
+}
+
+
 .container ol, .container ul { padding: 0 8%; }
 .container p:first-of-type {
     margin-top: 30px;
