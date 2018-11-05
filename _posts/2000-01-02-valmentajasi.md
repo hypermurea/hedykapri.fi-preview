@@ -13,7 +13,7 @@ Vuodesta 2011 lähtien olen toiminut monipuolisesti erilaisissa coachin ja valme
 yrityksen sisäisenä coachina, ulkoisena coachina, coaching-taitojen kouluttajana ja nyt myös
 yrittäjänä. Asiakkaitani ovat asiantuntijat, esimiehet ja johtajat.<a id="expand-valmentajasi">&gt;&gt;</a>
 
-<div id="expandable-valmentajasi" class="container expandable-container" style="display:none;">
+<div id="expandable-valmentajasi" class="expandable-container" style="display:none;">
 <p>
 Yrittäjä minusta tuli vuonna 2014, kun otin haltuun isäni perustaman sairaalatarvikkeiden
 maahantuontiyrityksen. Aiemmin urallani kehitin tuotteita ja palveluita ensin liikkeenjohdon
@@ -35,10 +35,10 @@ näkyväksi ja lisäämään tietoisuuttaan. Tietoiseksi tuleminen mahdollistaa 
 </p>
 <a id="collapse-valmentajasi" class="collapse-link">X Sulje</a><br/>
 <div class="nosto">
-  <div style="width: 40%; height: 100%; float: left;">
-    <img src="img/hedy_kapri_skaalattu.jpg" style="width:80%; height: auto;"/>
+  <div style="width: 40%; height: 100%; float: left; display: table-cell;">
+    <img src="img/hedy_kapri_skaalattu.jpg" style="width:80%; height: auto; vertical-align: bottom"/>
   </div>
-  <div style="width: 60%; height: 100%; float: right; vertical-align: bottom;">
+  <div style="width: 60%; height: 100%; float: right; display: table-cell; vertical-align: sub;">
   Toimin asiakkaitteni kumppanina niin pienissä kuin suurissakin työhön liittyvissä
   pohdinnoissa ja tavoitteissa. Autan asiakkaitani löytämään oman, aidon tapansa
   elää, olla ja toimia.

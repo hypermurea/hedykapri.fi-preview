@@ -118,6 +118,11 @@ hr {
   padding-bottom: 25px;
 }
 
+.expandable-container p b {
+  display: block;
+  font-weight: 500;
+}
+
 .collapse-link {
   display: block;
 }
