@@ -68,12 +68,12 @@ hr {
 .center { text-align: center; }
 .container.intro p {
   font-style: italic;
-  font-size: 28px;
-  line-height: 37px;
+  font-size: 28pt;
+  line-height: 37pt;
 }
 .container.nosto p {
-  font-size: 31px;
-  line-height: 36px;
+  font-size: 31pt;
+  line-height: 36pt;
 }
 
 .section-links {
@@ -107,14 +107,14 @@ hr {
   /* padding: 0 5%; */
 }
 .container p, .container ol, .container ul {
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 17pt;
+  line-height: 25pt;
   /* padding: 0 5%; */
 }
 
 .expandable-container p {
-  font-size: 17px;
-  line-height: 25px;
+  font-size: 17pt;
+  line-height: 25pt;
   padding-bottom: 25px;
 }
 
@@ -123,14 +123,14 @@ hr {
 }
 
 .expandable-container .nosto {
-  font-size: 31px;
-  line-height: 36px;
+  font-size: 31pt;
+  line-height: 36pt;
   color: #d99493;
   float: right;
 }
 
 .expandable-container a {
-  font-size: 17px;
+  font-size: 17pt;
   padding-bottom: 25px;
 }
 
@@ -194,7 +194,7 @@ hr {
   background-color:#2e2e2e;
   background-image:none;
 }
-#footer .container p { font-size:13px; margin:0; }
+#footer .container p { font-size:13pt; margin:0; }
 
 .subtlecircle {
   text-align:center;
