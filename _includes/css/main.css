@@ -141,6 +141,7 @@ a:hover {
 .expandable-container p b {
   display: block;
   font-weight: 500;
+  font-size: 16pt;
 }
 
 .collapse-link {
