@@ -11,7 +11,7 @@ menu: true
 <p class="section-links">
 Hedy Kapri / Business & Career Coach<br/>
 Huopalahdentie 24, 00350 Helsinki<br/>
-<a href="tel:+358 40 5823 352">358 40 5823 352</a><br/>
+<a href="tel:+358 40 5823 352">+358 40 5823 352</a><br/>
 <a href="mailto:hedy@kapri.fi">hedy@hedykapri.fi</a><br/>
 <a href="http://hedykapri.fi">hedykapri.fi</a><br/>
 <a href="http://linkedin.com/in/hedykapri">linkedin.com/in/hedykapri</a><br/>
