@@ -131,7 +131,7 @@
 	input[type="reset"],
 	input[type="button"] {
 		float: right;
-		background: #f8f8f8; /* Old browsers */
+		/* background: #f8f8f8;*/ /* Old browsers */
 		border: 0px;
 	  -moz-border-radius: 3px;
 	  -webkit-border-radius: 3px;
@@ -164,7 +164,7 @@
 	input[type="reset"]:active,
 	input[type="button"]:active {
 		border: 1px solid #666;
-		background: ##f8f8f8; /* Old browsers */
+		/* background: ##f8f8f8; */ /* Old browsers */
  	}
 
 	.button.full-width,
@@ -193,6 +193,13 @@
 	}
 	fieldset {
 		margin-bottom: 20px; }
+	input[type="text"].error {
+		border:1px solid rgb(217, 148, 147);
+	}
+	textarea.error {
+		border:1px solid rgb(217, 148, 147);
+	}
+
 	input[type="text"],
 	input[type="password"],
 	input[type="email"],

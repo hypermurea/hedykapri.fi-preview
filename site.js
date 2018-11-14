@@ -30,7 +30,7 @@ $("#menu-valmentajasi").click(expandValmentajasi);
 $("#collapse-valmentajasi").click(function(e) {
   $("#expandable-valmentajasi").attr("style", "display:none;");
   $("#expand-valmentajasi").attr("style", "");
-  $(document).scrollTop( $("#valmentajasi").offset().top ); 
+  $(document).scrollTop( $("#valmentajasi").offset().top );
 });
 
 $("#contactForm").submit(function(e) {
@@ -38,6 +38,23 @@ $("#contactForm").submit(function(e) {
         e.preventDefault();
         // serialize total form data
         var postData = $(this).serializeArray();
+
+        var error = false;
+        for(var i = 0; i < postData.length; i ++) {
+          if(postData[i].value === "") {
+            error = true;
+            console.log('error: ' + postData[i].name)
+            $("#" + postData[i].name).addClass('error');
+            //$("input[name='" + postData[i].name + "']").addClass('error');
+          } else {
+            $("#" + postData[i].name).removeClass('error');
+            //$("input[name='" + postData[i].name + "']").removeClass('error');
+          }
+        }
+
+        if(error) {
+          return;
+        }
 
         // get form action url
         var formActionURL = $(this).attr("action");
