@@ -11,7 +11,9 @@ kuosi: true
 
 Vuodesta 2011 lähtien olen toiminut monipuolisesti erilaisissa coachin ja valmentajan rooleissa:
 yrityksen sisäisenä coachina, ulkoisena coachina, coaching-taitojen kouluttajana ja nyt myös
-yrittäjänä. Asiakkaitani ovat asiantuntijat, esimiehet ja johtajat.<a id="expand-valmentajasi">&gt;&gt;</a>
+yrittäjänä. Asiakkaitani ovat asiantuntijat, esimiehet ja johtajat.
+
+<a id="expand-valmentajasi" class="expand-link">Lue lisää &gt;&gt;</a>
 
 <div id="expandable-valmentajasi" class="expandable-container" style="display:none;">
 <p>

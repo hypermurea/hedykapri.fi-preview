@@ -94,7 +94,16 @@ hr {
   width: 100%;
 }
 
-.section-links a:hover {
+a {
+  cursor: pointer;
+}
+
+a.expand-link {
+  display: block;
+  margin-top: 25pt;
+}
+
+a:hover {
   text-decoration: underline;
   color: inherit;
 }

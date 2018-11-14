@@ -11,7 +11,9 @@ menu: true
 Tarjoan asiakkailleni aikaa ja tilaa pysähtyä ajattelemaan. Mistä oikeastaan on kyse? Mikä on
 kaikkein tärkeintä? Etsimällä vastauksia näihin kysymyksiin johdattelen asiakkaani oleellisen
 äärelle. Autan heitä tulemaan tietoisiksi omista tiedostamattomista ajattelu- ja
-toimintamalleistaan, löytämään uusia näkökulmia ja lisäämään itsetuntemustaan.<a id="expand-valmennukset">&gt;&gt;</a>
+toimintamalleistaan, löytämään uusia näkökulmia ja lisäämään itsetuntemustaan.
+
+<a id="expand-valmennukset" class="expand-link">Lue lisää &gt;&gt;</a>
 
 <div id="expandable-valmennukset" class="expandable-container" style="display:none;">
 
