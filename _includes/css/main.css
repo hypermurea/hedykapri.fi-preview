@@ -120,8 +120,11 @@ hr {
   /* padding: 0 5%; */
 }
 
+.expandable-container {
+  margin-top: 25pt;
+}
 .expandable-container p {
-  font-size: 17pt;
+  font-size: 16pt;
   line-height: 25pt;
   padding-bottom: 25px;
 }
