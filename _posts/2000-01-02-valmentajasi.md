@@ -2,7 +2,7 @@
 title: "Valmentajasi"
 bg: nude
 color: dark
-bottom-image: img/Hedy_Kapri_03.jpg
+bottom-image: img/hk_bigpicture_03.jpg
 menu: true
 kuosi: true
 ---
