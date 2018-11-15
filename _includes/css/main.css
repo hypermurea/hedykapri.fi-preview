@@ -71,22 +71,22 @@ hr {
 .center { text-align: center; }
 .container.intro p {
   font-style: italic;
-  font-size: 28pt;
-  line-height: 35pt;
+  font-size: 28px;
+  line-height: 35px;
 }
 .container.nosto p {
-  font-size: 31pt;
-  line-height: 37pt;
+  font-size: 31px;
+  line-height: 37px;
   font-weight: lighter;
 }
 
 .section-links {
-  margin-bottom: 60pt;
+  margin-bottom: 60px;
 }
 
 .kuosi {
-  margin-top: 60pt;
-  margin-bottom: 60pt;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
 .kuosi embed {
   background-repeat: repeat-x;
@@ -100,7 +100,7 @@ a {
 
 a.expand-link {
   display: block;
-  margin-top: 25pt;
+  margin-top: 25px;
 }
 
 a:hover {
@@ -117,31 +117,31 @@ a:hover {
 
 .container h1, .container h2, .container h3, .container h4 {
   margin-bottom: 30px;
-  font-size: 31pt;
+  font-size: 31px;
   font-weight: lighter;
   text-align: left;
   /* padding: 0 5%; */
 }
 .container p, .container ol, .container ul {
-  font-size: 16pt;
-  line-height: 25pt;
+  font-size: 16px;
+  line-height: 25px;
   font-weight: lighter;
   /* padding: 0 5%; */
 }
 
 .expandable-container {
-  margin-top: 25pt;
+  margin-top: 25px;
 }
 .expandable-container p {
-  font-size: 16pt;
-  line-height: 25pt;
+  font-size: 16px;
+  line-height: 25px;
   padding-bottom: 25px;
 }
 
 .expandable-container p b {
   display: block;
   font-weight: 500;
-  font-size: 16pt;
+  font-size: 16px;
 }
 
 .collapse-link {
@@ -149,14 +149,14 @@ a:hover {
 }
 
 .expandable-container .nosto {
-  font-size: 31pt;
-  line-height: 36pt;
+  font-size: 31px;
+  line-height: 36px;
   color: #d99493;
   float: right;
 }
 
 .expandable-container a {
-  font-size: 17pt;
+  font-size: 17px;
   padding-bottom: 25px;
 }
 
@@ -204,8 +204,8 @@ a:hover {
   position:relative;
   display:block;
   width:100%;
-  padding-top: 60pt;
-  padding-bottom: 60pt;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .section:first-of-type {
