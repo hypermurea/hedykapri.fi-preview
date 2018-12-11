@@ -13,7 +13,7 @@ kaikkein tärkeintä? Etsimällä vastauksia näihin kysymyksiin johdattelen asi
 äärelle. Autan heitä tulemaan tietoisiksi omista tiedostamattomista ajattelu- ja
 toimintamalleistaan, löytämään uusia näkökulmia ja lisäämään itsetuntemustaan.
 
-<a id="expand-valmennukset" class="expand-link">Lue lisää &gt;&gt;</a>
+<a id="expand-valmennukset" class="expand-link">Lue lisää &gt;</a>
 
 <div id="expandable-valmennukset" class="expandable-container" style="display:none;">
 

@@ -74,6 +74,22 @@ hr {
   font-size: 28px;
   line-height: 35px;
 }
+
+#nosto {
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+
+.container.intro {
+  margin-top: -3px;
+  margin-bottom: -3px;
+}
+
+.container.nosto {
+  margin-top: -3px;
+  margin-bottom: -3px;
+}
+
 .container.nosto p {
   font-size: 31px;
   line-height: 37px;
@@ -85,8 +101,8 @@ hr {
 }
 
 .kuosi {
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 .kuosi embed {
   background-repeat: repeat-x;
@@ -142,6 +158,7 @@ a:hover {
   display: block;
   font-weight: 500;
   font-size: 16px;
+  margin-bottom: 6px;
 }
 
 .collapse-link {
