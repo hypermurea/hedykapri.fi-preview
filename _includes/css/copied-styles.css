@@ -38,9 +38,9 @@ a:active {
 	right: 40px;
 	top: 72px;
 	z-index: 1000;
-	width: 215px;
-	padding-top: 20px;
-	padding-right: 20px;
+	width: 130px;
+	padding-top: 15px;
+	padding-right: 15px;
 }
 
 .main-navigation.toggled {
@@ -52,12 +52,12 @@ a:active {
 	display: none;
 	text-align: left;
 	background: #003d37;
-	font-size: 17pt;
+	font-size: 15px;
   font-weight: normal;
-	line-height: 25pt;
-	margin-left: 30pt;
-	margin-bottom: 30pt;
-	margin-top: 10px;
+	line-height: 23px;
+	margin-left: 15px;
+	margin-bottom: 15px;
+	margin-top: 15px;
 }
 
 .main-navigation.toggled div > ul {
@@ -91,8 +91,8 @@ a:active {
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-	font-size: 17pt;
-	line-height: 33pt;
+	font-size: 15px;
+	line-height: 23px;
 }
 
 .main-navigation a:hover {
