@@ -36,7 +36,7 @@ a:active {
 	clear: both;
 	display: block;
 	right: 40px;
-	top: 60px;
+	top: 72px;
 	z-index: 1000;
 	width: 215px;
 	padding-top: 20px;
@@ -45,6 +45,7 @@ a:active {
 
 .main-navigation.toggled {
 	background: #003d37;
+	top: 92px;
 }
 
 .main-navigation div > ul {
