@@ -356,7 +356,7 @@ a:hover {
 }
 
 /* tiny size (phones) */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 767px) {
   .main-navigation {
     clear: both;
     display: block;
@@ -365,8 +365,8 @@ a:hover {
     z-index: 1000;
     width: 38px;
     height: 38px;
-    padding-top: 15px;
-    padding-right: 15px;
+    padding-top: 0px;
+    padding-right: 0px;
   }
 
   .main-navigation.toggled {
@@ -404,9 +404,20 @@ a:hover {
     margin-bottom: 80px;
   }
 
+  .section:first-of-type {
+      padding-top: 0px;
+      padding-bottom: 0px;
+  }
+
+  .container.intro {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
 }
 
 /* anything not desktop */
+/*
 @media only screen and (max-width: 767px) {
 	.container h1 { font-size: 30px; }
 	.container h2 { font-size: 24px; }
@@ -442,3 +453,4 @@ a:hover {
     column-count:         2;
   }
 }
+*U
