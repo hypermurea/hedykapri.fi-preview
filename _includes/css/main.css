@@ -390,7 +390,7 @@ a:hover {
     clear: both;
     display: block;
     right: 20px;
-    top: 80px;
+    top: 40px;
     z-index: 1000;
     width: 38px;
     height: 38px;
@@ -429,8 +429,8 @@ a:hover {
     background-repeat: no-repeat;
     height: 28px;
     width: auto;
-    margin-top: 80px;
-    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 
   .section:first-of-type {
@@ -444,53 +444,46 @@ a:hover {
   }
 
   .kuosi {
-    margin-top: 80px;
+    margin-top: 40px;
     width: 100%;
     height: 120px;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     background-image: url('img/kuosi_lyhyt.svg');
-    background-size: cover;
+    background-size: cover;0
     background-repeat: no-repeat;
   }
 
+  .section {
+    position:relative;
+    display:block;
+    width:100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  #nosto {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  .container.nosto p {
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: lighter;
+  }
+
+  .container.intro p {
+    font-style: italic;
+    font-size: 26px;
+    line-height: 35px;
+  }
+
+  .expandable-container .nosto {
+    font-size: 26px;
+    line-height: 35px;
+    color: #d99493;
+    float: right;
+  }
+
 
 }
-
-/* anything not desktop */
-/*
-@media only screen and (max-width: 767px) {
-	.container h1 { font-size: 30px; }
-	.container h2 { font-size: 24px; }
-	.container h3 { font-size: 20px; }
-	.container h4 { font-size: 18px; }
-
-
-  .section { padding:60px 0; }
-  .sectiondivider {
-    width:200px;
-    height:200px;
-    padding:15px;
-    top:-100px;
-    margin-left:-100px;
-  }
-  .sectiondivider img {
-    width:150px;
-    height:180px;
-  }
-  .sectiondivider .fa-stack {
-    font-size: 100px;
-    margin-top: -14px;
-  }
-  .sectiondivider h5 {
-    font-size:15px;
-    bottom:30px;
-    width:170px
-  }
-
-  .columned {
-    -webkit-column-count: 2;
-    -moz-column-count:    2;
-    column-count:         2;
-  }
-}
-*U
