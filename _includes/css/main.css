@@ -312,20 +312,20 @@ a:hover {
 .menu-close {
   width: 20px;
   height: 20px;
-  background-image: url('/img/ruksi.svg');
+  background-image: url('img/ruksi.svg');
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .menu-open {
-  background-image: url('/img/hamppari.svg');
+  background-image: url('img/hamppari.svg');
   /*src="img/hamppari.svg"*/
   width: 38px;
   height: 38px;
 }
 
 .toplogo {
-  background-image: url('/img/HedyKapri.svg');
+  background-image: url('img/HedyKapri.svg');
   background-repeat: no-repeat;
   height: 38px;
   width: auto;
@@ -396,7 +396,7 @@ a:hover {
   nav ul li { min-width:90px; line-height:20px; }
 
   .toplogo {
-    background-image: url('/img/HedyKapri_pieni.svg');
+    background-image: url('img/HedyKapri_pieni.svg');
     background-repeat: no-repeat;
     height: 28px;
     width: auto;
