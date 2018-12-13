@@ -6,9 +6,14 @@ $(function() {
 });
 
 var expandValmennukset = function(e) {
+  $(".main-navigation").removeClass('toggled');
   $("#expandable-valmennukset").attr("style", "display:block");
   $("#expand-valmennukset").attr("style", "display:none;");
 };
+
+$('#menu-otayhteytta').click(function(e) {
+  $(".main-navigation").removeClass('toggled');
+});
 
 $("#expand-valmennukset").click(expandValmennukset);
 $("#menu-valmennukset").click(expandValmennukset);
@@ -20,6 +25,7 @@ $("#collapse-valmennukset").click(function(e) {
 });
 
 var expandValmentajasi = function(e) {
+  $(".main-navigation").removeClass('toggled');
   $("#expandable-valmentajasi").attr("style", "display:block");
   $("#expand-valmentajasi").attr("style", "display:none;");
 };

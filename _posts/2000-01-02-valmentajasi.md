@@ -38,7 +38,7 @@ näkyväksi ja lisäämään tietoisuuttaan. Tietoiseksi tuleminen mahdollistaa 
 <a id="collapse-valmentajasi" class="collapse-link">X Sulje</a><br/>
 <div class="nosto only-for-desktop">
   <div style="width: 40%; height: 100%; float: left; display: table-cell;">
-    <img src="img/hedy_kapri_skaalattu.jpg" style="width:80%; height: auto; vertical-align: bottom"/>
+    <img src="img/Hedy_Kapri_potretti.jpg" style="width:80%; height: auto; vertical-align: bottom"/>
   </div>
   <div class="nosto-kuvalla">
   Toimin asiakkaitteni kumppanina niin pienissä kuin suurissakin työhön liittyvissä
@@ -47,7 +47,7 @@ näkyväksi ja lisäämään tietoisuuttaan. Tietoiseksi tuleminen mahdollistaa 
   </div>
 </div>
 <div class="nosto only-for-mobile">
-  <img src="img/hedy_kapri_skaalattu.jpg" style="width:100%; height: auto; margin-bottom: 60px;"/>
+  <img src="img/Hedy_Kapri_potretti.jpg" style="width:100%; height: auto; margin-bottom: 60px;"/>
   <div>
 Toimin asiakkaitteni kumppanina niin pienissä kuin suurissakin työhön liittyvissä
 pohdinnoissa ja tavoitteissa. Autan asiakkaitani löytämään oman, aidon tapansa
