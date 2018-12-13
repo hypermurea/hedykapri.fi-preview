@@ -309,63 +309,24 @@ a:hover {
 .longlist li { margin-bottom: 3px; }
 
 
-
-/* ----- fork on github banner ----- */
-#forkongithub a {
-  color:#fff;
-  text-decoration:none;
-  font-family:arial,sans-serif;
-  text-align:center;
-  font-weight:700;
-  font-size:1rem;
-  line-height:2rem;
-  position:relative;
-  transition:.5s;
-  padding:5px 40px;
-}
-#forkongithub a::before, #forkongithub a::after {
-  content:""; width:100%; display:block; position:absolute;
-  top:1px; left:0; height:1px; background:#fff;
-}
-#forkongithub a::after { bottom:1px; top:auto; }
-@media screen and (min-width:800px) {
-  #forkongithub {
-    position:fixed;
-    display:block;
-    top:0;
-    right:0;
-    width:200px;
-    overflow:hidden;
-    height:200px;
-    z-index:9999;
-  }
-  #forkongithub a {
-    width:200px;
-    position:absolute;
-    top:60px;
-    right:-60px;
-    transform:rotate(45deg);
-    -webkit-transform:rotate(45deg);
-    -ms-transform:rotate(45deg);
-    -moz-transform:rotate(45deg);
-    -o-transform:rotate(45deg);
-    box-shadow:4px 4px 10px rgba(0,0,0,0.8);
-    box-sizing: content-box;
-  }
-}
-
-
 .menu-close {
   width: 20px;
-  height: auto;
+  height: 20px;
+  background-image: url('../img/ruksi.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .menu-open {
+  background-image: url('../img/hamppari.svg');
+  /*src="img/hamppari.svg"*/
   width: 38px;
-  height: auto;
+  height: 38px;
 }
 
 .toplogo {
+  background-image: url('../img/HedyKapri.svg');
+  background-repeat: no-repeat;
   height: 38px;
   width: auto;
   margin-top: 80px;
@@ -381,9 +342,68 @@ a:hover {
   }
 }
 
+@media only screen {
+  .main-navigation {
+  	clear: both;
+  	display: block;
+  	right: 40px;
+  	top: 72px;
+  	z-index: 1000;
+  	width: 130px;
+  	padding-top: 15px;
+  	padding-right: 15px;
+  }
+}
+
 /* tiny size (phones) */
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 400px) {
+  .main-navigation {
+    clear: both;
+    display: block;
+    right: 20px;
+    top: 80px;
+    z-index: 1000;
+    width: 38px;
+    height: 38px;
+    padding-top: 15px;
+    padding-right: 15px;
+  }
+
+  .main-navigation.toggled {
+    clear: both;
+    display: block;
+    right: 20px;
+    top: 42px;
+    z-index: 1000;
+    width: 130px;
+    height: 130px;
+    padding-top: 15px;
+    padding-right: 15px;
+  }
+
+  .main-navigation.toggled div > ul {
+  	display: none;
+  	text-align: left;
+  	background: #003d37;
+  	font-size: 15px;
+    font-weight: normal;
+  	line-height: 23px;
+    margin-top: 0px;
+  	margin-left: 15px;
+  	margin-bottom: 15px;
+  }
+
   nav ul li { min-width:90px; line-height:20px; }
+
+  .toplogo {
+    background-image: url('../img/HedyKapri_pieni.svg');
+    background-repeat: no-repeat;
+    height: 28px;
+    width: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
 }
 
 /* anything not desktop */

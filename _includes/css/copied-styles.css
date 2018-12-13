@@ -32,17 +32,6 @@ a:active {
 	position: fixed;
 }
 
-.main-navigation {
-	clear: both;
-	display: block;
-	right: 40px;
-	top: 72px;
-	z-index: 1000;
-	width: 130px;
-	padding-top: 15px;
-	padding-right: 15px;
-}
-
 .main-navigation.toggled {
 	background: #003d37;
 	top: 92px;
@@ -78,7 +67,7 @@ a:active {
 }
 
 .main-navigation.toggled .menu-close {
-	display: inline;
+	display: inline-block;
 }
 
 .main-navigation ul, .kuurna-quicklinks ul {
