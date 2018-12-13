@@ -36,14 +36,21 @@ Haastatteluilla, havainnoinnilla, ja autoetnografialla autan asiakkaittani tekem
 näkyväksi ja lisäämään tietoisuuttaan. Tietoiseksi tuleminen mahdollistaa halutun muutoksen.
 </p>
 <a id="collapse-valmentajasi" class="collapse-link">X Sulje</a><br/>
-<div class="nosto">
+<div class="nosto only-for-desktop">
   <div style="width: 40%; height: 100%; float: left; display: table-cell;">
     <img src="img/hedy_kapri_skaalattu.jpg" style="width:80%; height: auto; vertical-align: bottom"/>
   </div>
-  <div style="width: 60%; height: 100%; float: right; display: table-cell; vertical-align: sub;">
+  <div class="nosto-kuvalla">
   Toimin asiakkaitteni kumppanina niin pienissä kuin suurissakin työhön liittyvissä
   pohdinnoissa ja tavoitteissa. Autan asiakkaitani löytämään oman, aidon tapansa
   elää, olla ja toimia.
   </div>
 </div>
+<div class="nosto only-for-mobile">
+  <img src="img/hedy_kapri_skaalattu.jpg" style="width:100%; height: auto; margin-bottom: 60px;"/>
+  <div>
+Toimin asiakkaitteni kumppanina niin pienissä kuin suurissakin työhön liittyvissä
+pohdinnoissa ja tavoitteissa. Autan asiakkaitani löytämään oman, aidon tapansa
+elää, olla ja toimia.
+  </div>
 </div>

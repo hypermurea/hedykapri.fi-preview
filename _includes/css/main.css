@@ -339,6 +339,15 @@ a:hover {
   margin-bottom: 80px;
 }
 
+.nosto-kuvalla {
+  width: 60%;
+  height: 100%;
+  float: right;
+  display: table-cell;
+  vertical-align: sub;
+}
+
+
 /* mid size (tablets, landscapes) */
 @media only screen and (max-width: 679px) {
   nav { font-size:11px; }
@@ -358,6 +367,20 @@ a:hover {
   	width: 130px;
   	padding-top: 15px;
   	padding-right: 15px;
+  }
+}
+
+.only-for-mobile {
+  display: none;
+}
+
+@media only screen and (max-width: 480px) {
+  .only-for-desktop {
+    display: none;
+  }
+
+  .only-for-mobile {
+    display: block;
   }
 }
 
@@ -428,6 +451,7 @@ a:hover {
     background-image: url('img/kuosi_lyhyt.svg');
     background-repeat: repeat-x;
   }
+
 
 }
 
