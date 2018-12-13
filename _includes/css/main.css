@@ -102,13 +102,19 @@ hr {
 
 .kuosi {
   margin-top: 80px;
+  width: 100%;
+  height: 160px;
   margin-bottom: 80px;
+  background-image: url('img/kuosi_lyhyt.svg');
+  background-repeat: repeat-x;
 }
+/*
 .kuosi embed {
   background-repeat: repeat-x;
   overflow:hidden;
   width: 100%;
 }
+*/
 
 a {
   cursor: pointer;
@@ -412,6 +418,15 @@ a:hover {
   .container.intro {
     margin-top: 0px;
     margin-bottom: 0px;
+  }
+
+  .kuosi {
+    margin-top: 80px;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 80px;
+    background-image: url('img/kuosi_lyhyt.svg');
+    background-repeat: repeat-x;
   }
 
 }
