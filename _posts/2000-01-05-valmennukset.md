@@ -47,9 +47,7 @@ Käytän valmennuksissani coachingin rinnalla arviointityökaluja (esim. Growth 
 <p>
 <b>Etsitkö itsellesi coachia?</b>
 Ota yhteyttä ja varaa itsellesi aika veloituksettomaan 30 minuutin kartoituskeskusteluun. Keskustellaan tarkemmin valmennustarpeestasi ja siitä miten voisin olla avuksi/hyödyksi.
-</p>
-
-<p>
+<br/><br/>
 Tyypillinen yksilöcoachingprosessi kestää noin 2-4 kuukautta, sisältäen 4-7 coachingsessiota sekä aktivoivia ja oppimista edistäviä välitehtäviä. Räätälöin coaching-prosessit kuitenkin tapauskohtaisesti sen mukaan, kuinka syvällistä tutkiskelua ja pitkäkestoista työstämistä milloinkin tarvitaan. Coaching voidaan toteuttaa kasvokkain, puhelimitse, Skypellä tmv. tai näiden yhdistelmällä.
 </p>
 
