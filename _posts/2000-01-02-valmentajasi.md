@@ -37,7 +37,7 @@ Erityisosaamistani on kvalitatiivisten tutkimusmenetelmien hyödyntäminen valme
 <div class="nosto only-for-mobile">
   <img src="img/Hedy_Kapri_potretti.jpg" style="width:100%; height: auto; margin-bottom: 60px;"/>
   <div>
-Toimin asiakkaitteni kumppanina niin pienissä kuin suurissakin työhön liittyvissä
+Toimin asiakkaitteni kumppanina niin pienissä kuin suurissakin työhön ja uraan liittyvissä
 pohdinnoissa ja tavoitteissa.
     <br/><br/>
     Jotta onnistut.
