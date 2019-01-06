@@ -19,7 +19,7 @@ Huopalahdentie 24, 00350 Helsinki<br/>
 
 <form id="contactForm" method="POST" action="https://script.google.com/macros/s/AKfycbxTsM82OL2TJnPA-Tfsfsv6ZFpwVTkSYsuLXKyQb1ag8WK04_fS/exec">
 <input type="text" id="Nimi" name="Nimi" placeholder="Nimi"/>
-<input type="text" id="Sähköposti" name="Sähköposti" placeholder="Sähköposti"/>
+<input type="text" id="Email" name="Email" placeholder="Sähköposti"/>
 <input type="text" id="Aihe" name="Aihe" placeholder="Aihe"/>
 <textarea rows="8" id="Viesti" name="Viesti" placeholder="Viesti">
 </textarea>
