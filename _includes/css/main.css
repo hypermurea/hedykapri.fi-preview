@@ -385,7 +385,7 @@ a:hover {
 }
 
 /* tiny size (phones) */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 810px) {
   .main-navigation {
     clear: both;
     display: block;
