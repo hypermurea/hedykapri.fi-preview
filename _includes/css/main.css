@@ -385,7 +385,7 @@ a:hover {
 }
 
 /* tiny size (phones) */
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 790px) {
   .main-navigation {
     clear: both;
     display: block;
@@ -449,8 +449,8 @@ a:hover {
     height: 120px;
     margin-bottom: 40px;
     background-image: url('img/kuosi_lyhyt.svg');
-    background-size: cover;0
-    background-repeat: no-repeat;
+    background-size: contain;
+    background-repeat: repeat-x;
   }
 
   .section {
