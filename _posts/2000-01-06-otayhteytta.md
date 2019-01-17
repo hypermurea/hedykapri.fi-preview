@@ -15,6 +15,7 @@ Huopalahdentie 24, 00350 Helsinki<br/>
 <a href="mailto:hedy@kapri.fi">hedy@hedykapri.fi</a><br/>
 <a href="http://hedykapri.fi">hedykapri.fi</a><br/>
 <a href="http://linkedin.com/in/hedykapri">linkedin.com/in/hedykapri</a><br/>
+y-tunnus 0503442-9
 </p>
 
 <form id="contactForm" method="POST" action="https://script.google.com/macros/s/AKfycbxTsM82OL2TJnPA-Tfsfsv6ZFpwVTkSYsuLXKyQb1ag8WK04_fS/exec">
