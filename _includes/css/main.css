@@ -340,6 +340,22 @@ a:hover {
   vertical-align: sub;
 }
 
+.apply_button {
+  width: 263px;
+  height: 38px;
+  background-color: #003d37; /* dark */
+  color: #ffffff;
+  font-weight: 700;
+  display: table;
+}
+
+.apply_button a {
+  color: #ffffff !important;/* white */
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 15px;
+}
 
 /* mid size (tablets, landscapes) */
 @media only screen and (max-width: 679px) {
@@ -398,7 +414,7 @@ a:hover {
     top: 42px;
     z-index: 1000;
     width: 130px;
-    height: 130px;
+    height: 175px;
     padding-top: 15px;
     padding-right: 15px;
   }

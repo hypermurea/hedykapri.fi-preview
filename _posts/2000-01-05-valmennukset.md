@@ -4,6 +4,7 @@ bg: grey
 color: dark
 bottom-image: img/hk_bigpicture_01.jpg
 menu: true
+kuosi: true
 ---
 
 ## Valmennukset
@@ -17,7 +18,7 @@ valitset? Etsimällä vastauksia kysymyksiin johdattelen asiakkaani oleellisen �
 <div id="expandable-valmennukset" class="expandable-container" style="display:none;">
 
 <p>
-Autan asiakkaitani tulemaan tietoisiksi omista tiedostamattomista ajattelu- ja toimintamalleistaan, löytämään uusia näkökulmia ja lisäämään itsetuntemustaan. 
+Autan asiakkaitani tulemaan tietoisiksi omista tiedostamattomista ajattelu- ja toimintamalleistaan, löytämään uusia näkökulmia ja lisäämään itsetuntemustaan.
 Lähtökohtana valmennuksissani on aina todelliset arjen haasteet ja toiveet. Haastan asiakkaani viemään saamansa oivallukset ajattelu- ja asennetasolta käytäntöön – käyttäytymisen ja tekemisen tasolle saakka.
 </p>
 
