@@ -39,6 +39,23 @@ $("#collapse-valmentajasi").click(function(e) {
   $(document).scrollTop( $("#valmentajasi").offset().top );
 });
 
+var expandProbono = function(e) {
+  $(".main-navigation").removeClass('toggled');
+  $("#expandable-pro_bono_coaching").attr("style", "display:block");
+  $("#expand-pro_bono_coaching").attr("style", "display:none;");
+};
+
+$("#expand-pro_bono_coaching").click(expandProbono);
+$("#menu-pro_bono_coaching").click(expandProbono);
+
+$("#collapse-pro_bono_coaching").click(function(e) {
+  $("#expandable-pro_bono_coaching").attr("style", "display:none;");
+  $("#expand-pro_bono_coaching").attr("style", "");
+  $(document).scrollTop( $("#pro_bono_coaching").offset().top );
+});
+
+
+
 $("#contactForm").submit(function(e) {
         // prevent default submit behaviour
         e.preventDefault();

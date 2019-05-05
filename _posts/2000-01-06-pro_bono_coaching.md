@@ -10,13 +10,13 @@ menu: true
 Coaching kuuluu kaikille! Mielestäni jokaisella pitäisi olla mahdollisuus kokea sen tuottama voimaantuminen, selkeys, innostus ja itsetuntemuksen lisääntyminen.
 Haluankin tarjota mahdollisuuden coachingiin sitä tarvitsevalle.
 
-<a id="expand-probono" class="expand-link">Lue lisää &gt;</a>
+<a id="expand-pro_bono_coaching" class="expand-link">Lue lisää &gt;</a>
 
-<div id="expandable-probono" class="expandable-container" style="display:none;">
+<div id="expandable-pro_bono_coaching" class="expandable-container" style="display:none;">
 
 <p>
 	<div class="apply_button">
-		<a href="#hae_pro_bono">KEVÄÄN 2019 HAKU AUKI NYT</a>
+		<span>KEVÄÄN 2019 HAKU AUKI NYT</span>
 	</div>
 </p>
 
@@ -49,8 +49,8 @@ Miten coaching onnistuisi sinulle aikataulullisesti elokuun alkuun mennessä?
 </p>
 
 <p>
-Lähetä hakemuksesi viimeistään maanantaina 8.5. sähköpostilla <a href="mailto:hedy@kapri.fi">hedy@hedykapri.fi</a> tai täytä <a href="#otayhteytta">yhteydenottolomake</a>: Kirjoita otsikoksi Haku: pro bono - coaching. Ilmoitan valitulle henkilökohtaisesti viimeistään 10.5.2019.
+Lähetä hakemuksesi viimeistään maanantaina 13.5. sähköpostilla <a href="mailto:hedy@kapri.fi">hedy@hedykapri.fi</a> tai täytä <a href="#otayhteytta">yhteydenottolomake</a>. Kirjoita otsikoksi Haku: Pro bono - coaching. Ilmoitan valitulle henkilökohtaisesti viimeistään 15.5.2019.
 </p>
 
-<a id="collapse-probono" class="collapse-link">X Sulje</a>
+<a id="collapse-pro_bono_coaching" class="collapse-link">X Sulje</a>
 </div>

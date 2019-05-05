@@ -349,7 +349,7 @@ a:hover {
   display: table;
 }
 
-.apply_button a {
+.apply_button span {
   color: #ffffff !important;/* white */
   display: table-cell;
   vertical-align: middle;
