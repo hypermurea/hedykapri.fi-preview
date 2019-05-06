@@ -37,8 +37,7 @@ colors:
   nude:      '#faf4f4'
   dark:      '#003d37'
 
-plugins:
-  - jekyll-sitemap
-
 kramdown:
   auto_ids:  false
+
+production_url: http://hedykapri.fi

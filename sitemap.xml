@@ -1,0 +1,22 @@
+---
+title : "Sitemap"
+sitemap_exclude: y
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<url>
+			<loc>http://hedykapri.fi/#valmentajasi</loc>
+	</url>
+	<url>
+			<loc>http://hedykapri.fi/#valmennukset</loc>
+	</url>
+	<url>
+			<loc>http://hedykapri.fi/#pro_bono_coaching</loc>
+	</url>
+	<url>
+			<loc>http://hedykapri.fi/#otayhteytta</loc>
+	</url>
+	<url>
+			<loc>http://hedykapri.fi/</loc>
+	</url>
+</urlset>
