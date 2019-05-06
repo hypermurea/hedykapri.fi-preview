@@ -14,9 +14,9 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "Hedy Kapri"
+title:       "Hedy Kapri – Ammatticoach – Jotta onnistut"
 keywords:    "Hedy Kapri,coaching,business coaching,yksilöcoaching,ryhmäcoaching,uracoaching,uravalmennus,työn tuunaaminen"
-description: "hedykapri.fi"
+description: "Toimin asiakkaitteni kumppanina niin pienissä kuin suurissakin työhön ja uraan liittyvissä pohdinnoissa ja tavoitteissa. Valmennan yksilöitä, ryhmiä ja tiimejä löytämään oleellisen äärelle ja onnistumaan."
 source_link: "TODO"
 favicon:     "img/favicon.ico"
 touch_icon:  "img/apple-touch-icon.png"
@@ -36,6 +36,9 @@ colors:
   pink:      '#d99493'
   nude:      '#faf4f4'
   dark:      '#003d37'
+
+plugins:
+  - jekyll-sitemap
 
 kramdown:
   auto_ids:  false
