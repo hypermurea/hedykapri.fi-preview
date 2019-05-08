@@ -89,6 +89,7 @@ $("#contactForm").submit(function(e) {
             data: postData,
          }).done(function(data) {
             alert("Kiitos yhteydenotosta!");
+            $("#contactForm").find("input[type=text], textarea").val("");
          }).fail(function() {
             alert("error");
          }).always(function() {
