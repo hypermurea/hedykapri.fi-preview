@@ -1,5 +1,6 @@
 ---
 title: "Pro bono -coaching"
+short_title: "Pro bono"
 bg: nude
 color: dark
 menu: true
@@ -16,7 +17,7 @@ Haluankin tarjota mahdollisuuden coachingiin sitä tarvitsevalle.
 
 <p>
 	<div class="apply_button">
-		<span>KEVÄÄN 2019 HAKU AUKI NYT</span>
+		<span>HAKU AUKEAA SYKSYLLÄ 2019</span>
 	</div>
 </p>
 
@@ -49,8 +50,13 @@ Miten coaching onnistuisi sinulle aikataulullisesti elokuun alkuun mennessä?
 </p>
 
 <p>
+Tarkemmat hakuohjeet julkaistaan syksyllä 2019.
+</p>
+<!--
+<p>
 Lähetä hakemuksesi viimeistään maanantaina 13.5. sähköpostilla <a href="mailto:hedy@kapri.fi">hedy@hedykapri.fi</a> tai täytä <a href="#otayhteytta">yhteydenottolomake</a>. Kirjoita otsikoksi Haku: Pro bono - coaching. Ilmoitan valitulle henkilökohtaisesti viimeistään 15.5.2019.
 </p>
+-->
 
 <a id="collapse-pro_bono_coaching" class="collapse-link">X Sulje</a>
 </div>

@@ -12,7 +12,7 @@
 
     gtag('config', 'UA-131795192-1');
   </script>
-  
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ site.title }}</title>
@@ -35,7 +35,7 @@
                {% for node in site.posts reversed %}
                  {% if node.menu %}
                  {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-                 <li><a href="#{{id}}" id="menu-{{id}}">{{node.title}}</a></li>
+                 <li><a href="#{{id}}" id="menu-{{id}}">{% if node.short_title %}{{node.short_title}}{% else %}{{node.title}}{% endif %}</a></li>
                  {% endif %}
                {% endfor %}
   			</ul></div>
