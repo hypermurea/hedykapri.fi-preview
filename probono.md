@@ -1,6 +1,7 @@
 ---
+title: This will be used as the title-tag of the page head
 ---
-<!DOCTYPE html>
+
 <html dir="ltr" lang="en">
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
