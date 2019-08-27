@@ -23,23 +23,16 @@
   <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   {% if site.favicon %}<link rel="shortcut icon" href="{{ site.favicon }}" type="image/x-icon">{% endif %}
 	{% if site.touch_icon %}<link rel="apple-touch-icon" href="{{ site.touch_icon }}">{% endif %}
+	<style>
+		#pro_bono_coaching {
+			padding: 60px;
+		}
+	</style>
 </head>
 <body>
   <div id="main">
 
     <header id="masthead" class="site-header" role="banner" style="background-color: #000; color: #ffffff;">
-      <nav id="site-navigation" class="main-navigation" role="navigation">
-  		    <a href="#" id="toggle-menu"><div class="menu-open"></div><div class="menu-close"></div></a>
-
-  			     <div><ul>
-               {% for node in site.posts reversed %}
-                 {% if node.menu %}
-                 {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-                 <li><a href="#{{id}}" id="menu-{{id}}">{% if node.short_title %}{{node.short_title}}{% else %}{{node.title}}{% endif %}</a></li>
-                 {% endif %}
-               {% endfor %}
-  			</ul></div>
-  	   </nav><!-- #site-navigation -->
     </header>
 
 <!--
@@ -52,7 +45,7 @@
 -->
 
     {% for page in site.posts reversed %}
-      {% unless page.excluded %}
+		{% if page.title contains "Pro bono -coaching" %}
       {% capture id %}{{ page.id | remove:'/' | downcase }}{% endcapture %}
       <div id="{{id}}" class="section p-{{id}}">
         {% if page.icon %}
@@ -81,7 +74,7 @@
         <!--<embed src="img/HK_kuosi.svg"/>-->
       </div>
       {% endif %}
-      {% endunless %}
+			{% endif %}
     {% endfor %}
 
   </div>

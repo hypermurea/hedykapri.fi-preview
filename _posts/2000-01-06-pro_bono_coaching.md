@@ -3,7 +3,8 @@ title: "Pro bono -coaching"
 short_title: "Pro bono"
 bg: nude
 color: dark
-menu: true
+menu: false
+excluded: true
 ---
 
 ## Pro bono -coaching
@@ -11,9 +12,7 @@ menu: true
 Coaching kuuluu kaikille! Mielestäni jokaisella pitäisi olla mahdollisuus kokea sen tuottama voimaantuminen, selkeys, innostus ja itsetuntemuksen lisääntyminen.
 Haluankin tarjota mahdollisuuden coachingiin sitä tarvitsevalle.
 
-<a id="expand-pro_bono_coaching" class="expand-link">Lue lisää &gt;</a>
-
-<div id="expandable-pro_bono_coaching" class="expandable-container" style="display:none;">
+<div id="expandable-pro_bono_coaching" class="expandable-container">
 
 <p>
 	<div class="apply_button">
@@ -58,5 +57,4 @@ Lähetä hakemuksesi viimeistään maanantaina 13.5. sähköpostilla <a href="ma
 </p>
 -->
 
-<a id="collapse-pro_bono_coaching" class="collapse-link">X Sulje</a>
 </div>
