@@ -14,7 +14,7 @@ markdown: kramdown
 
 
 ### content configuration ###
-title:       "Hedy Kapri – Ammatticoach – Jotta onnistut"
+name:        "Hedy Kapri – Ammatticoach – Jotta onnistut"
 keywords:    "Hedy Kapri,coaching,business coaching,yksilöcoaching,ryhmäcoaching,uracoaching,uravalmennus,työn tuunaaminen"
 description: "Toimin asiakkaitteni kumppanina niin pienissä kuin suurissakin työhön ja uraan liittyvissä pohdinnoissa ja tavoitteissa. Valmennan yksilöitä, ryhmiä ja tiimejä löytämään oleellisen äärelle ja onnistumaan."
 source_link: "TODO"

@@ -1,5 +1,5 @@
 ---
-title: This will be used as the title-tag of the page head
+title: Pro bono coaching
 ---
 
 <html dir="ltr" lang="en">

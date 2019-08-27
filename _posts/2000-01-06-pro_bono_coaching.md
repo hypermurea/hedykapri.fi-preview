@@ -7,6 +7,8 @@ menu: false
 excluded: true
 ---
 
+<div class="toplogo"></div>
+
 ## Pro bono -coaching
 
 Coaching kuuluu kaikille! Mielestäni jokaisella pitäisi olla mahdollisuus kokea sen tuottama voimaantuminen, selkeys, innostus ja itsetuntemuksen lisääntyminen.
