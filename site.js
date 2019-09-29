@@ -1,3 +1,10 @@
+$(document).ready(function(){
+  $('.carousel-container').slick({
+    arrows: true,
+    appendArrows: $("#nosto2"),
+  });
+});
+
 $(function() {
   $("#toggle-menu").click(function(e) {
 	   $(".main-navigation").toggleClass('toggled');

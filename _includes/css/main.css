@@ -96,6 +96,26 @@ hr {
   font-weight: lighter;
 }
 
+.container.karuselli {
+  margin-top: -3px;
+  margin-bottom: -3px;
+}
+
+.container.karuselli p {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: lighter;
+}
+
+
+.carousel-page p {
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: lighter;
+
+  margin-top: 15px;
+}
+
 .section-links {
   margin-bottom: 60px;
 }
@@ -125,6 +145,12 @@ a:hover {
 
 .left, .container .left { text-align: left; }
 
+.container {
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: lighter;
+}
+
 .container embed {
   margin-top: 60px;
   margin-bottom: 30px;
@@ -137,6 +163,7 @@ a:hover {
   text-align: left;
   /* padding: 0 5%; */
 }
+
 .container p, .container ol, .container ul {
   font-size: 16px;
   line-height: 25px;
@@ -480,6 +507,18 @@ a:hover {
   #nosto {
     padding-bottom: 40px;
     padding-top: 40px;
+  }
+
+  .container.nosto {
+    font-size: 26px;
+    line-height: 35px;
+    font-weight: lighter;
+  }
+
+  .carousel-page {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: lighter;
   }
 
   .container.nosto p {
