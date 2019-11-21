@@ -548,5 +548,19 @@ a:hover {
     float: right;
   }
 
+  .container.karuselli p {
+    font-size: 21px;
+    line-height: 30px;
+    font-weight: lighter;
+    flex-direction: column;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+  .container.karuselli p sub {
+    font-size: 14px;
+    align-self: flex-start;
+  }
+
 
 }

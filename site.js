@@ -3,6 +3,7 @@ $(document).ready(function(){
     arrows: true,
     appendArrows: $("#nosto2"),
     variableWidth: false,
+    swipe: true,
   });
 });
 
