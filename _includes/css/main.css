@@ -105,6 +105,14 @@ hr {
   font-size: 25px;
   line-height: 30px;
   font-weight: lighter;
+  flex-direction: column;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.container.karuselli p sub {
+  font-size: 16px;
+  align-self: flex-start;
 }
 
 

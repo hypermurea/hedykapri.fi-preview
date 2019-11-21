@@ -2,6 +2,7 @@ $(document).ready(function(){
   $('.carousel-container').slick({
     arrows: true,
     appendArrows: $("#nosto2"),
+    variableWidth: false,
   });
 });
 
