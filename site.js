@@ -4,6 +4,12 @@ $(document).ready(function(){
     appendArrows: $("#nosto2"),
     variableWidth: false,
     swipe: true,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 4500,
+    pauseOnFocus: true,
+    pauseOnHover: true,
+    pauseOnDotsHover: true,
   });
 });
 
