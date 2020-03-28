@@ -1,5 +1,5 @@
-Fancy jekyll powered single page site
-======================
+hedykapri.fi SPA
+================
 
 Here're some examples:
 
@@ -32,7 +32,7 @@ Here're some examples:
   - [Alt.Net Australia User Group](http://www.ozalt.net/) ([source](https://github.com/ozaltnet/ozaltnet.github.io))
   - [FeedReader](http://jangernert.github.io/FeedReader/) Desktop RSS client ([source](https://github.com/jangernert/FeedReader/tree/gh-pages))
   - [Coala Analyzer](http://coala-analyzer.org/) command-line interface for linting ([source](https://github.com/coala-analyzer/website))
-  - [Easy Shell](http://lucasviola.github.io/easyshell/) Linux and Shell Commands the Easy Way ([source](https://github.com/lucasviola/easyshell/tree/gh-pages)) 
+  - [Easy Shell](http://lucasviola.github.io/easyshell/) Linux and Shell Commands the Easy Way ([source](https://github.com/lucasviola/easyshell/tree/gh-pages))
 - **Events / Conferences**
   - [CodeWeek 15 @ DI](http://cesium.github.io/codeweek15) CodeWeek at the University of Minho in 2015 by [CeSIUM](http://cesium.di.uminho.pt) - ([source](http://github.com/cesium/codeweek15))
   - [Innovation Lab + Smart Data Hack](http://smartdatahack.org/) 5-day student challenge at University of Edinburgh, Turkey ([source](https://github.com/ilwhack/ilwhack.github.io))
