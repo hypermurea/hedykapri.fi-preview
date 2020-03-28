@@ -44,7 +44,7 @@
                  {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
                  <li><a href="#{{id}}" id="menu-{{id}}">{% if node.short_title %}{{node.short_title}}{% else %}{{node.title}}{% endif %}</a></li>
                  {% endif %}
-               {% endfor %}
+               {% endfor %}i
   			</ul></div>
   	   </nav><!-- #site-navigation -->
     </header>
