@@ -41,7 +41,7 @@
                {% for node in site.posts reversed %}
                  {% if node.menu %}
                  {% capture id %}{{ node.id | remove:'/' | downcase }}{% endcapture %}
-                 <li><a href="{{site.url}}/#{{id}}" id="menu-{{id}}">{% if node.short_title %}{{node.short_title}}{% else %}{{node.title}}{% endif %}</a></li>
+                 <li><a href="{{site.production_url}}/#{{id}}" id="menu-{{id}}">{% if node.short_title %}{{node.short_title}}{% else %}{{node.title}}{% endif %}</a></li>
                  {% endif %}
                {% endfor %}
   			</ul></div>
